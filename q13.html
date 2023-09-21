@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.gallery-item {
+  padding: 10px;
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+        </style>
+    </head>
+    <body>
+        <div class="gallery">
+            <div class="gallery-item">
+              <img src="img/laptop.png" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+              <img src="img/search.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+              <img src="img/تنزيل.png" alt="Image 3">
+            </div>
+          </div>
+    </body>
+</html>
