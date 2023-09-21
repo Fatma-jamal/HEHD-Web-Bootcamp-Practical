@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /*
+            .container{
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: center;
+                border:1px solid black;
+                width: 500px;
+                display: flex;
+                background-color: brown;
+            }*/
+            .container{
+                display: flex;
+                
+            }
+            .col1{
+                width: 300px;
+                border: 1px solid black;
+                margin-right: 20px;
+            }
+            .col2{
+                flex-grow: 1;
+                border: 1px solid black;
+            }
+            .col1,.col2{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="col1">
+                col1
+            </div>
+            <div class="col2">
+                col2
+            </div>
+        </div>
+    </body>
+</html>
