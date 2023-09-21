@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /*.i1 {
+                border: 1px solid red;
+                padding: 20px;
+                width: 10%;
+                height: 80px;
+
+
+}
+
+.i2 {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid red;
+  height: 120px;
+
+}
+
+.i3 {
+  width: 40%;
+  float: left;
+  padding: 10px;
+  border: 1px solid red;
+  height: 100px;
+
+}
+.i4 {
+  width: 15%;
+  float: left;
+  padding: 10px;
+  border: 1px solid red;
+  height: 150px;
+
+
+}
+.container{
+    padding: 10px;
+}*/
+.grid-container {
+  display: flex;
+  grid-gap: 10px;
+  column-gap: 10px;
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  break-inside: avoid;
+  width: 50%;
+  float: left;
+}
+.i1{
+    height: 50px;
+    float: left;
+
+}
+.i2{
+    height: 80px;
+    float: left;
+
+}.i3{
+    height: 120px;
+}.i4{
+    height: 150px;
+}
+.i5{
+    height: 180px;
+}.i6{
+    height: 250px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-item i1">Item 1</div>
+            <div class="grid-item i2">Item 2</div>
+            <div class="grid-item i3">Item 3</div>
+            <div class="grid-item i4">Item 4</div>
+            <div class="grid-item i5">Item 5</div>
+            <div class="grid-item i6">Item 6</div>
+            <!-- Add more items as needed -->
+          </div>
+       <!-- <div class="container">
+            <div class="i1">item1</div>
+            <div class="i2">item2</div>
+            <div class="i3">item3</div>  
+            <div class="i4">item4</div>
+            
+          </div>-->
+    </body>
+</html>
